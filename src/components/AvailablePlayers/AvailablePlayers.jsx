@@ -5,7 +5,7 @@ const AvailablePlayers = ({ playersData }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
       {playersData.map((player) => (
-        <Card player={player}></Card>
+        <Card key={player.playerId} player={player}></Card>
       ))}
     </div>
   );
