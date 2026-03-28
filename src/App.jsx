@@ -2,6 +2,7 @@ import { Suspense, useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Players from "./components/Players/Players";
+import { ToastContainer } from "react-toastify";
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json");
@@ -23,6 +24,8 @@ function App() {
           setCoin={setCoin}
         ></Players>
       </Suspense>
+
+      <ToastContainer />
     </>
   );
 }

@@ -1,10 +1,13 @@
 import React, { use, useState } from "react";
 import AvailablePlayers from "../AvailablePlayers/AvailablePlayers";
+import SelectedPlayers from "../SelectedPlayers/SelectedPlayers";
 
 const Players = ({ playerPromise, coin, setCoin }) => {
   const playersData = use(playerPromise);
 
   const [selectedType, setSelectedType] = useState("available");
+
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
 
   return (
     <div className="max-w-300 mx-auto">
@@ -12,7 +15,9 @@ const Players = ({ playerPromise, coin, setCoin }) => {
         {selectedType === "available" ? (
           <h2 className="font-bold text-xl">Available Players</h2>
         ) : (
-          <h2 className="font-bold text-xl">Selected Players 2/6</h2>
+          <h2 className="font-bold text-xl">
+            Selected Players {selectedPlayers.length}/{playersData.length}
+          </h2>
         )}
         <div>
           <button
@@ -25,15 +30,27 @@ const Players = ({ playerPromise, coin, setCoin }) => {
             onClick={() => setSelectedType("selected")}
             className={`btn ${selectedType === "selected" ? "bg-[#e7fe29]" : ""} rounded-l-none rounded-r-xl`}
           >
-            Selected (0)
+            Selected ({selectedPlayers.length})
           </button>
         </div>
       </div>
-      <AvailablePlayers
-        playersData={playersData}
-        coin={coin}
-        setCoin={setCoin}
-      ></AvailablePlayers>
+
+      {selectedType === "available" ? (
+        <AvailablePlayers
+          playersData={playersData}
+          coin={coin}
+          setCoin={setCoin}
+          selectedPlayers={selectedPlayers}
+          setSelectedPlayers={setSelectedPlayers}
+        ></AvailablePlayers>
+      ) : (
+        <SelectedPlayers
+          selectedPlayers={selectedPlayers}
+          setSelectedPlayers={setSelectedPlayers}
+          coin={coin}
+          setCoin={setCoin}
+        ></SelectedPlayers>
+      )}
     </div>
   );
 };
