@@ -1,0 +1,152 @@
+[
+  {
+    "playerId": 1,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm orthodox",
+    "biddingPrice": 900
+  },
+  {
+    "playerId": 2,
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Batsman",
+    "battingType": "Left-hand bat",
+    "bowlingType": "None",
+    "biddingPrice": 750
+  },
+  {
+    "playerId": 3,
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Wicketkeeper",
+    "battingType": "Right-hand bat",
+    "bowlingType": "None",
+    "biddingPrice": 700
+  },
+  {
+    "playerId": 4,
+    "name": "Mahmudullah Riyad",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 650
+  },
+  {
+    "playerId": 5,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Bowler",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm fast",
+    "biddingPrice": 800
+  },
+  {
+    "playerId": 6,
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Wicketkeeper",
+    "battingType": "Right-hand bat",
+    "bowlingType": "None",
+    "biddingPrice": 600
+  },
+  {
+    "playerId": 7,
+    "name": "Afif Hossain",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 400
+  },
+  {
+    "playerId": 8,
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": 550
+  },
+  {
+    "playerId": 9,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm legbreak",
+    "biddingPrice": 850
+  },
+  {
+    "playerId": 10,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": 950
+  },
+  {
+    "playerId": 11,
+    "name": "David Miller",
+    "country": "South Africa",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Batsman",
+    "battingType": "Left-hand bat",
+    "bowlingType": "None",
+    "biddingPrice": 700
+  },
+  {
+    "playerId": 12,
+    "name": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 650
+  },
+  {
+    "playerId": 13,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Wicketkeeper",
+    "battingType": "Left-hand bat",
+    "bowlingType": "None",
+    "biddingPrice": 900
+  },
+  {
+    "playerId": 14,
+    "name": "Sunil Narine",
+    "country": "West Indies",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 4000
+  },
+  {
+    "playerId": 15,
+    "name": "Faf du Plessis",
+    "country": "South Africa",
+    "image": "https://i.ibb.co.com/tP3RLxpY/Shakib.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": 850
+  }
+]

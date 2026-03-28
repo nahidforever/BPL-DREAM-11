@@ -4,9 +4,9 @@ import dollarImg from "../../assets/Currency.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar max-w-300 mx-auto">
+    <div className="navbar max-w-300 mx-auto mt-4">
       <div className="flex-1">
-        <img src={navImg} className="h-[55px] w-[55px]" alt="" />
+        <img src={navImg} className="h-14 w-14" alt="" />
       </div>
       <div className="flex-none">
         <button className="flex items-center gap-2 font-bold text-xl">
