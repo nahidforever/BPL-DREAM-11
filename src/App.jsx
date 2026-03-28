@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Players from "./components/Players/Players";
@@ -10,12 +10,18 @@ const fetchPlayers = async () => {
 
 function App() {
   const playerPromise = fetchPlayers();
+
+  const [coin, setCoin] = useState(5000);
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar coin={coin}></Navbar>
 
       <Suspense>
-        <Players playerPromise={playerPromise}></Players>
+        <Players
+          playerPromise={playerPromise}
+          coin={coin}
+          setCoin={setCoin}
+        ></Players>
       </Suspense>
     </>
   );
